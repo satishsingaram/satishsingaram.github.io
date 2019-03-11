@@ -9,7 +9,19 @@ export default function SideNav (props) {
         </div>
         <ul className="list-unstyled components">
             <li>
-                <Link to="/Intro">Intro</Link>
+                <Link to="/intro">About</Link>
+            </li>
+            <li>
+                <Link to="/experience">Experience</Link>
+            </li>
+            <li>
+                <Link to="/education">Education</Link>
+            </li>
+            <li>
+                <Link to="/skills">Skills</Link>
+            </li>
+            <li>
+                <Link to="/interests">Interests</Link>
             </li>
             <li>
                 <Link to="/awards">Awards</Link>

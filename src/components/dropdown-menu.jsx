@@ -31,8 +31,12 @@ class IconBarDropDown extends Component {
                       <FontAwesomeIcon icon={faAlignJustify} fixedWidth style={{ color: 'gold' }}/>
                     </DropdownToggle>
                     <DropdownMenu>
+                      <DropdownItem ><Link to="/intro">About</Link></DropdownItem>
+                      <DropdownItem ><Link to="/experience">Experience</Link></DropdownItem>
+                      <DropdownItem ><Link to="/education">Education</Link></DropdownItem>
+                      <DropdownItem ><Link to="/skills">Skills</Link></DropdownItem>
+                      <DropdownItem ><Link to="/interests">Interests</Link></DropdownItem>
                       <DropdownItem ><Link to="/awards">Awards</Link></DropdownItem>
-                      <DropdownItem ><Link to="/Intro">Intro</Link></DropdownItem>
                     </DropdownMenu>
                  </Dropdown>
                </div>
